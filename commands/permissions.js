@@ -16,6 +16,6 @@ exports.getRole = async(client, interaction, role) => {
     let guild = await client.guilds.fetch(interaction.guild_id)
     role = await guild.roles.fetch(role)
     let author = `${interaction.member.user.username}#${interaction.member.user.discriminator}`
-    role = `Permissions for role ${role.name}\n\`\`\`${role.permissions.toArray().join('\n')}\`\`\`nRequested by ${author} via slash commands`
+    role = `Permissions for role ${role.name}\n\`\`\`${role.permissions.toArray().join('\n')}\`\`\`\nRequested by ${author} via slash commands`
     return role
 }
