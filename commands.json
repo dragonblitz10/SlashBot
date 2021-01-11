@@ -1,0 +1,48 @@
+{
+    "permissions": {
+      "name": "permissions",
+      "description": "Get or edit permissions for a user or a role",
+      "options": [
+        {
+          "name": "user",
+          "description": "Get or edit permissions for a user",
+          "type": 2,
+          "options": [
+            {
+              "name": "get",
+              "description": "Get permissions for a user",
+              "type": 1,
+              "options": [
+                {
+                  "name": "user",
+                  "description": "The user to get",
+                  "type": 6,
+                  "required": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "role",
+          "description": "Get or edit permissions for a role",
+          "type": 2,
+          "options": [
+            {
+              "name": "get",
+              "description": "Get permissions for a role",
+              "type": 1,
+              "options": [
+                {
+                  "name": "role",
+                  "description": "The role to get",
+                  "type": 8,
+                  "required": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }

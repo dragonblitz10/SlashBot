@@ -1,0 +1,17 @@
+{
+  "name": "slashbot",
+  "version": "1.0.0",
+  "description": "bot that uses discord's slash commands",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node ."
+  },
+  "author": "dragonblitz10",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "github:discordjs/discord.js"
+  }
+}
